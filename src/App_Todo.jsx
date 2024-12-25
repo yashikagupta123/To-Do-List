@@ -137,9 +137,7 @@ function App() {
         />
       </div>
 
-      <div className="flex flex-row flex-wrap gap-[10px] w-[100%] ">
-        {renderTasks()}
-      </div>
+      <div className="flex flex-col gap-[10px] w-[100%] ">{renderTasks()}</div>
       <ToastContainer
         position="bottom-right"
         autoClose={3000}
